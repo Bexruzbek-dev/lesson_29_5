@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -14,6 +13,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.sizeOf(context).width;
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -645,7 +646,7 @@ class MyApp extends StatelessWidget {
                   style: GoogleFonts.inter(
                     fontSize: 13,
                     fontWeight: FontWeight.w600,
-                  ), 
+                  ),
                 ),
                 Text(
                   "CS at Google",
@@ -696,6 +697,7 @@ class MyApp extends StatelessWidget {
                   width: double.infinity,
                   height: 485,
                   color: Color.fromRGBO(29, 40, 48, 1),
+                  child: Image.asset("assets/last.png"),
                 ),
               ],
             ),
