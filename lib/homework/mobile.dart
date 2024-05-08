@@ -645,7 +645,7 @@ class MyApp extends StatelessWidget {
                   style: GoogleFonts.inter(
                     fontSize: 13,
                     fontWeight: FontWeight.w600,
-                  ),
+                  ), 
                 ),
                 Text(
                   "CS at Google",
