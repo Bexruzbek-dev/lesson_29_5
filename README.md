@@ -3,7 +3,7 @@
 A new Flutter project.
 
 ## Getting Started
-<img src="assets/vd.mov" width="350" title="hover text">
+<video src="assets/vd.mov" width="350" title="hover text">
 
 This project is a starting point for a Flutter application.
 
